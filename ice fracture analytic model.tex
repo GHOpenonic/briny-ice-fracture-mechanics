@@ -1,0 +1,68 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Ice Fracture Analytic Model}
+\author{Cody Cruz, Brad Lipovsky}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    put abstract here (?)
+\end{abstract}
+
+\section{Introduction}
+We are developing an analytic model to describe how increases in pressure due to the lesser density of ice than liquid water result in eventual ice fracture. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth]{0g-l a.jpg}
+\caption{\label{fig:0g-l a}Ice fractures present in a freshwater sample frozen at -30C}
+\end{figure}
+\pagebreak
+\section{Analytic Model}
+
+\subsection{Pressure via Incremental Change in Volume (?)}
+
+\mbox{$P$: Pressure} \linebreak
+\mbox{$K_w$: Bulk Modulus of Water} \linebreak
+\mbox{$V$: Volume} \linebreak
+\mbox{$V_0$: Initial Volume of Water} \linebreak
+\mbox{$V_w$: Volume of water} \linebreak
+\mbox{$V_i$: Volume of ice} \linebreak
+\mbox{$A$: Unit Area} \linebreak
+\mbox{$M$: Mass} \linebreak
+\mbox{$\rho_w$: Density of Water} \linebreak
+\mbox{$\rho_i$: Density of Ice} \linebreak
+\mbox{$t$: time} \linebreak
+\mbox{$x$: horizontal along which ice formation occurs} \linebreak
+Initial identity:
+\[\frac{P}{K_w} = \frac{\frac{dV}{A}}{\frac{V}{A}}] = \frac{dx}{X}\]
+With each increment of freezing:
+\[\frac{\Delta M}{\rho_w}\] 
+\\
+\\
+\\
+\[\dot{m} = \frac{\Delta M}{\Delta t}\]
+\[V_w(t) = V_0 - \frac{\dot{m}}{\rho_w} \Delta t\]
+\[V_i(t) = \frac{\dot{m}}{\rho_i} \Delta t\]
+\\
+\\
+\\
+\[\frac{V(t)}{V_0} = \frac{V_0 + \dot{m}(\rho_i^{-1} - \rho_w^{-1}) \Delta t}{V_0}\]
+\[\frac{dV}{V_0} = \frac{V_0 + \dot{m}(\rho_i^{-1} - \rho_w^{-1}) \Delta t}{V_0} = \frac{P}{K_f}\]
+
+
+\end{document}
