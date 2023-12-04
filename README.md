@@ -1,2 +1,12 @@
 # briny-ice-fracture-mechanics
-we are experimentally studying the mechanics of briny ice fracture and developing an analytic model
+we are experimentally studying the mechanics of briny ice fracture and developing an analytic model <br>
+<br>
+AGU Winter 2023 Conference Abstract: <br>
+Laboratory Experiments and Modeling of Hydraulic Fractures in Briny Ice <br>
+Cody Cruz, John-Morgan Manos, Bradley Lipovsky <br>
+<br>
+Mechanical differences between saltwater and freshwater ice are known to induce distinct fracture behavior. For example, McGrath et al. (2014, J. Geophys Res.) observed that saltwater accreting to the bottom of ice shelves slows rift propagation. The stability of ice shelves are extremely important to deep water formation and global climate processes. In part, the dampening effect of salinity on fracture may be due to the heightened hydraulic diffusivity of saline ice; channels formed during brine rejection provide pathways for expelling pressurized water that might otherwise stress the ice to the point of brittle failure. In order to better understand the relationship between salinity, temperature, and fracture in ice, we performed experiments exploring the hydraulic diffusivity of small, briny ice samples. Performing 46 iterations of our experiment, we subjected 950mL water samples of varying salinities to a range of sub-freezing ambient temperatures. <br>
+<br>
+In a typical experiment, after most of the sample was solid, the center-bottom bulged out before developing fractures as it froze. Samples with higher salinities, as well as those subjected to warmer temperatures, likely attained lower pressures, exhibiting less bulging and fracture. We attribute this behavior to the fact that pressurized water within the more saline samples was able to exit through brine channels before the critical level needed to induce fracture was reached. We support this interpretation with an analytic model in which an outer sphere of ice encroaches on an inner sphere of liquid, with increasing pressure as a function of decreasing liquid sphere radius. Our results demonstrate a strong relationship between salinity, temperature, and fracturing. Our study therefore provides insights into the underlying, small-scale physical processes involved in the observed marine ice stabilization of ice shelf rift propagation. <br>
+<br>
+References: McGrath, D., Steffen, K., Holland, P.R., Scambos, T., Rajaram, H., Abdalati, W. and Rignot, E., 2014. The structure and effect of suture zones in the Larsen C Ice Shelf, Antarctica. Journal of Geophysical Research: Earth Surface, 119(3), pp.588-602. https://doi.org/10.1002/2013JF002935
